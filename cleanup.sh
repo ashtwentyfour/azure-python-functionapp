@@ -3,6 +3,11 @@
 echo "Azure subscription ID = $1"
 echo -e "Deleting Azure resource group - $2 \n"
 
+# Azure login
+echo -e "Cloud login \n"
+az login
+echo -e "\n"
+
 # set subscription
 az account set --subscription $1
 

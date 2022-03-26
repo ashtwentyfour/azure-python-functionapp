@@ -7,8 +7,9 @@ echo "Azure storage account = $4"
 echo -e "Azure functionapp = $5 \n"
 
 # Azure login
-echo -e "Cloud login"
+echo -e "Cloud login \n"
 az login
+echo -e "\n"
 
 # set subscription
 echo -e "Setting subscription... \n"
